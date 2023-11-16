@@ -1,0 +1,5 @@
+/* EXEMPLO DE PATH PARA INCLUIR FONTES: /assets/fonts/foo-bar.woff */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
