@@ -1,5 +1,15 @@
 /* EXEMPLO DE PATH PARA INCLUIR FONTES: /assets/fonts/foo-bar.woff */
 
+@import './fonts/proxima-nova.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply font-proximanova;
+}
+
+.bg-principal {
+    background: url('~/static/imgs/noise.png') center center #FFFCF9;
+}

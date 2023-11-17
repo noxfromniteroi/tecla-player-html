@@ -21,10 +21,16 @@ module.exports = {
       '2xl': '1366px',
       '3xl': '1536px',
     },
+    fontFamily: {
+      proximanova: ['proxima_nova']
+    },
     extend: {
       colors: {
         brand: '#CD9A03',
         secondary: '#0C1618',
+        telclagrey: {
+          100: '#8298AB'
+        }
       },
       backgroundImage: (theme) => ({
         main: 'url("../static/imgs/bg-main.jpg")',
