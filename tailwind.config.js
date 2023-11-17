@@ -42,7 +42,8 @@ module.exports = {
           100: '#00C498'
         },
         teclalight: {
-          100: '#F0F5F9'
+          50: '#FFFCF9',
+          100: '#F0F5F9',
         },
       },
       backgroundImage: (theme) => ({
