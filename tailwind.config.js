@@ -29,7 +29,7 @@ module.exports = {
         brand: '#CD9A03',
         secondary: '#0C1618',
         telclagrey: {
-          100: '#8298AB'
+          100: '#363535'
         }
       },
       backgroundImage: (theme) => ({
