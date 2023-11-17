@@ -1,6 +1,7 @@
 /* EXEMPLO DE PATH PARA INCLUIR FONTES: /assets/fonts/foo-bar.woff */
 
 @import './fonts/proxima-nova.css';
+@import './fonts/circular-spotify.css';
 
 @tailwind base;
 @tailwind components;
@@ -12,4 +13,13 @@ body {
 
 .bg-principal {
     background: url('~/static/imgs/noise.png') center center #FFFCF9;
+}
+
+/* FORM */
+.input {
+    @apply block w-full border border-teclagreen-100 text-base text-teclagrey-100 bg-white py-2 pl-10 pr-2 rounded-lg outline-none font-circularspotifytext font-book;
+}
+
+.btn {
+    @apply block w-full text-base font-bold text-center rounded-lg bg-teclagreen-100 text-teclalight-100 p-[9px] shadow-lg;
 }

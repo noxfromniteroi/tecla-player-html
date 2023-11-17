@@ -22,15 +22,28 @@ module.exports = {
       '3xl': '1536px',
     },
     fontFamily: {
-      proximanova: ['proxima_nova']
+      proximanova: ['proxima_nova'],
+      circularspotifyhead: ['circular_spotify_head'],
+      circularspotifytext: ['circular_spotify_text']
+    },
+    fontWeight: {
+      light: '300',
+      book: '350',
+      bold: '700'
     },
     extend: {
       colors: {
         brand: '#CD9A03',
         secondary: '#0C1618',
-        telclagrey: {
+        teclagrey: {
           100: '#363535'
-        }
+        },
+        teclagreen: {
+          100: '#00C498'
+        },
+        teclalight: {
+          100: '#F0F5F9'
+        },
       },
       backgroundImage: (theme) => ({
         main: 'url("../static/imgs/bg-main.jpg")',
