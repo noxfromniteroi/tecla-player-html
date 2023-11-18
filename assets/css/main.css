@@ -23,3 +23,8 @@ body {
 .btn {
     @apply block w-full text-base font-bold text-center rounded-lg bg-teclagreen-100 text-teclalight-100 p-[9px] shadow-lg;
 }
+
+/* PLAYLISTS */
+.playlists li + li {
+    @apply mt-[6px];
+}

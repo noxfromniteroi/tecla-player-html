@@ -8,7 +8,7 @@
     </head>
 
     <body>
-        <div class="w-[740px] h-[513px] rounded-2xl overflow-hidden bg-principal p-6">
+        <div class="w-[740px] h-[513px] rounded-2xl overflow-hidden bg-principal p-6 relative">
             <header class="flex justify-between items-center">
                 <figure class="w-[118px]">
                     <img src="/static/imgs/logo.svg" alt="">
@@ -32,10 +32,90 @@
             </header>
 
             <div class="flex gap-4 mt-[31px]">
+                <!-- col left -->
                 <div class="w-[232px] h-[271px] rounded-2xl bg-teclagreen-100 text-teclalight-50 shadow-sm px-2 py-4">
-                    <div class="font-bold text-sm text-teclalight-50 truncate">Riachuelo - Plaza Shopping Niterói </div>
+                    <div class="px-2 mb-3">
+                        <h4 class="font-bold text-sm text-teclalight-50 mb-2 truncate leading-none">Riachuelo - Plaza Shopping Niterói</h4>
+                        <img class="w-[48px] mb-3" src="/static/imgs/icons/icon-wave.svg" alt="">
+
+                        <div class="flex items-center gap-2 mb-3">
+                            <img class="w-[16px] drop-shadow-lg" src="/static/imgs/icons/icon-music.svg" alt="">
+                            <span class="text-base font-bold drop-shadow-lg leading-none">Playlists</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-teclagrey-100/30 flex items-center p-2 py-[9px] rounded-lg gap-2 mb-2">
+                        <img class="w-[11px]" src="/static/imgs/icons/icon-equalizer.svg" alt="">
+                        <span class="text-base font-bold leading-none">Dias de Semana</span>
+                    </div>
+
+                    <div class="px-2">
+                        <ul class="playlists mb-5">
+                            <li>
+                                <p class="flex items-center gap-[9px] truncate text-base font-book leading-none">
+                                    <span class="text-xs">02</span> Fins de Semana e Feriados
+                                </p>
+                                <div class="ml-auto w-fit text-[10px]">
+                                    <img class="w-[10px] inline" src="/static/imgs/icons/icon-folder.svg" alt="">
+                                    95%
+                                </div>
+                            </li>
+                            <li>
+                                <p class="flex items-center gap-[9px] truncate text-base font-book leading-none">
+                                    <span class="text-xs">02</span> Fins de Semana e Feriados
+                                </p>
+                                <div class="ml-auto w-fit text-[10px]">
+                                    <img class="w-[10px] inline" src="/static/imgs/icons/icon-folder.svg" alt="">
+                                    95%
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="flex items-center gap-3 border-t border-teclalight-50/25 pt-2 leading-none">
+                            <img class="w-[7px] inline drop-shadow-lg" src="/static/imgs/icons/icon-microfone.svg" alt="">
+                            <span class="font-bold text-base drop-shadow-lg">Vinhetas</span>
+                        </div>
+                    </div>
+                    
                 </div>
-                <div class="flex-1 rounded-2xl border border-teclagreen-100/20 bg-teclalight-50"></div>
+
+                <!-- col right -->
+                <div class="flex-1 flex flex-col rounded-2xl border border-teclagreen-100/20 bg-teclalight-50">
+                    <div class="px-[14px] py-4">
+                        <p class="font-bold text-xl leading-none mb-2">
+                            <span class="uppercase text-xs block">anterior</span>
+                            Nosso Quadro
+                        </p>
+                        <p class="font-light text-xs text-teclagrey-50 leading-none">AgroPlay, Ana Castela</p>
+                    </div>
+                    <div class="px-[14px] py-4 flex items-center bg-teclagreen-100 gap-4 flex-1">
+                        <img class="w-[33px] drop-shadow-lg" src="/static/imgs/icons/icon-equalizer.svg" alt="">
+
+                        <div class="font-bold text-2xl text-teclalight-200 leading-none flex-1">
+                            <span class="drop-shadow-lg">Infiel / Amante Não Tem lar</span>
+
+                            <div class="flex items-end justify-between">
+                                <span class="block text-base font-normal drop-shadow-lg">Marília Mendonça</span>
+
+                                <div class="flex gap-2">
+                                    <a href="javascript:;">
+                                        <img class="w-3 drop-shadow-lg" src="/static/imgs/icons/icon-like.svg" alt="">
+                                    </a>
+                                    <a href="javascript:;">
+                                        <img class="w-3 drop-shadow-lg" src="/static/imgs/icons/icon-dislike.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-[14px] py-4">
+                        <p class="font-bold text-xl leading-none mb-2">
+                            <span class="uppercase text-xs block">próxima:</span>
+                            Erro Gostoso - Ao Vivo
+                        </p>
+                        <p class="font-light text-xs text-teclagrey-50 leading-none">Simone Mendes</p>
+                    </div>
+                </div>
             </div>
         </div>
     </body>

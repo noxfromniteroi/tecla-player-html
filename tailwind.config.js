@@ -29,6 +29,7 @@ module.exports = {
     fontWeight: {
       light: '300',
       book: '350',
+      normal: '400',
       bold: '700'
     },
     extend: {
@@ -36,6 +37,7 @@ module.exports = {
         brand: '#CD9A03',
         secondary: '#0C1618',
         teclagrey: {
+          50: '#807A7A',
           100: '#363535'
         },
         teclagreen: {
@@ -44,6 +46,7 @@ module.exports = {
         teclalight: {
           50: '#FFFCF9',
           100: '#F0F5F9',
+          200: '#F0F8F5'
         },
       },
       backgroundImage: (theme) => ({
