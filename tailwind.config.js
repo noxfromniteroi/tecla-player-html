@@ -38,6 +38,7 @@ module.exports = {
         secondary: '#0C1618',
         teclagrey: {
           50: '#807A7A',
+          60: '#C4C2C0',
           100: '#363535'
         },
         teclagreen: {

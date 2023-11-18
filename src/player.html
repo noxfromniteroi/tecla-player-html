@@ -8,7 +8,7 @@
     </head>
 
     <body>
-        <div class="w-[740px] h-[513px] rounded-2xl overflow-hidden bg-principal p-6 relative">
+        <div class="w-[740px] h-[513px] rounded-2xl overflow-hidden bg-principal p-6 relative border border-teclagrey-60/50">
             <header class="flex justify-between items-center">
                 <figure class="w-[118px]">
                     <img src="/static/imgs/logo.svg" alt="">
@@ -126,6 +126,30 @@
                 <div class="flex justify-between">
                     <span class="text-xs text-teclagrey-100">02:29</span>
                     <span class="text-xs text-teclagrey-100">02:47</span>
+                </div>
+
+                <div class="w-[440px] ml-auto flex items-center justify-between">
+                    <!-- controls -->
+                    <div class="flex items-center gap-[31px]">
+                        <div class="w-8 h-8 bg-teclagreen-100 flex justify-center items-center rounded-full cursor-pointer">
+                            <img class="w-4" src="/static/imgs/icons/icon-shuffle.svg" alt="">
+                        </div>
+                        <div class="cursor-pointer">
+                            <img class="w-[58]" src="/static/imgs/icons/icon-play.svg" alt="">
+                        </div>
+                        <div class="cursor-pointer">
+                            <img class="w-4" src="/static/imgs/icons/icon-next.svg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- volume -->
+                    <div class="flex items-center gap-[6px] w-[127px]">
+                        <img class="w-5" src="/static/imgs/icons/icon-volume.svg" alt="">
+
+                        <div class="flex-1 h-[6px] bg-teclalight-50 rounded-3xl drop-shadow-lg">
+                            <div class="bg-teclagreen-100 w-[50%] h-full rounded-3xl"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
