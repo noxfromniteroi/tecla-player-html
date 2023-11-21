@@ -17,7 +17,7 @@ body {
 
 /* FORM */
 .input {
-    @apply block w-full border border-teclagreen-100 text-base text-teclagrey-100 bg-white py-2 pl-10 pr-2 rounded-lg outline-none font-circularspotifytext font-book;
+    @apply block w-full py-2 pl-10 pr-2 text-base bg-white border rounded-lg outline-none border-teclagreen-100 text-teclagrey-100 font-circularspotifytext font-book;
 }
 
 .btn {
@@ -27,4 +27,15 @@ body {
 /* PLAYLISTS */
 .playlists li + li {
     @apply mt-[6px];
+}
+
+.text-gradiente {
+    @apply relative;
+}
+
+.text-gradiente:after {
+    @apply absolute top-0 right-[-15px] h-full w-10 pointer-events-none;
+    background: rgb(0,196,152);
+    background: linear-gradient(90deg, rgba(0,196,152,0) 0%, rgba(0,196,152,1) 50%);
+    content: '';
 }
