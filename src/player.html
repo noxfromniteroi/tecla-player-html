@@ -211,7 +211,7 @@
                 <!-- /NOTIFICAÇÃO -->
 
                 <!-- AJUDA -->
-                <div class="w-[515px] absolute p-4 top-4 right-4 rounded-2xl bg-teclalight-50">
+                <!-- <div class="w-[515px] absolute p-4 top-4 right-4 rounded-2xl bg-teclalight-50">
                     <div class="flex items-center justify-between mb-4">
                         <h6 class="pb-1 text-sm font-bold border-b-2 text-teclagrey-100 border-teclagreen-100">Ajuda</h6>
 
@@ -239,8 +239,68 @@
                             Financeiro
                         </a>
                     </div>
-                </div>
+                </div> -->
                 <!-- /AJUDA -->
+
+                <!-- FORM SUPORTE -->
+                <div class="w-[515px] absolute p-4 top-4 right-4 rounded-2xl bg-teclalight-50">
+                    <div class="flex items-center justify-between mb-4">
+                        <h6 class="pb-1 text-sm font-bold border-b-2 text-teclagrey-100 border-teclagreen-100">Ajuda</h6>
+
+                        <a href="javascript:;">
+                            <img class="w-[14px]" src="/static/imgs/icons/icon-close.svg" alt="">
+                        </a>
+                    </div>
+
+                    <h5 class="font-bold text-2xl text-teclagrey-100 border-b border-teclagrey-100/[.08] pb-5 leading-none mb-4">Como podemos ajudar?</h5>
+                    <a class="inline-flex items-center justify-between w-[295px] text-sm text-teclagrey-100 font-circularspotifytext font-book mb-4" href="javascript:;">
+                        Dúvidas frequentes
+                        <img class="w-[6px]" src="/static/imgs/icons/icons-arrow-right-thin.svg" alt="">
+                    </a>
+
+                    <h5 class="mb-3 text-xl font-bold leading-none text-teclagrey-100">Entre em contato</h5>
+
+                    <form action="">
+                        <div class="flex gap-3 mb-3">
+                            <div class="flex-1">
+                                <label class="relative block" for="">
+                                    <span class="pointer-events-none label">Email</span>
+                                    <input class="input-feature" type="text" value="suporte@teclamusic.com.br">
+                                    <img class="w-[14px] absolute left-[17px] bottom-[16px] z-10 pointer-events-none" src="/static/imgs/icons/icon-envelope.svg" alt="">
+                                </label>
+                            </div>
+                            <div class="w-[172px]">
+                                <label class="relative block" for="">
+                                    <span class="label !text-teclagreen-100 pointer-events-none">whatsapp</span>
+                                    <input class="input-with-icon" type="text" value="21 987 874 574">
+                                    <img class="w-[14px] absolute left-[17px] bottom-[15px] z-10 pointer-events-none" src="/static/imgs/icons/icon-whatsapp.svg" alt="">
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-3 mb-3">
+                            <div class="flex-1">
+                                <label for="email">
+                                    <input id="email" class="!px-4 !py-[6px] !pl-[17px] input" placeholder="Seu email" type="text">
+                                </label>
+                            </div>
+                            <div class="w-[172px]">
+                                <label for="assunto">
+                                    <select class="!px-4 !py-[8px] !pl-[17px] input h-[38px]" name="" id="assunto">
+                                        <option value="">Assunto 1</option>
+                                        <option value="">Assunto 2</option>
+                                        <option value="">Assunto 3</option>
+                                    </select>
+                                </label>
+                            </div>
+                        </div>
+
+                        <textarea class="!px-4 !py-[6px] !pl-[17px] input h-[78px] mb-3" name="" id="" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+
+                        <button class="btn">Enviar</button>
+                    </form>
+                </div>
+                <!-- /FORM SUPORTE -->
             </div>
         </div>
     </body>

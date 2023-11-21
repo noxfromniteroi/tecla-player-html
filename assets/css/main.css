@@ -20,8 +20,20 @@ body {
     @apply block w-full py-2 pl-10 pr-2 text-base bg-white border rounded-lg outline-none border-teclagreen-100 text-teclagrey-100 font-circularspotifytext font-book;
 }
 
+.input-feature {
+    @apply block w-full pb-[8px] pt-[14px] pl-10 pr-3 bg-teclagreen-100 text-base font-bold text-teclalight-50 rounded-lg outline-none border border-teclagreen-100;
+}
+
+.input-with-icon {
+    @apply block w-full pb-[8px] pt-[14px] pl-10 pr-3 bg-teclalight-50 text-base font-bold text-teclagrey-100 rounded-lg outline-none border border-teclagreen-100;
+}
+
+.label {
+    @apply absolute left-[17px] top-[8px] text-[8px] uppercase text-teclalight-50 font-bold z-10;
+}
+
 .btn {
-    @apply block w-full text-base font-bold text-center rounded-lg bg-teclagreen-100 text-teclalight-100 p-[9px] shadow-lg;
+    @apply block w-full text-base font-bold text-center rounded-lg bg-teclagreen-100 text-teclalight-100 p-[9px] shadow-lg relative;
 }
 
 /* PLAYLISTS */
